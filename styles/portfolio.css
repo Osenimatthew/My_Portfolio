@@ -241,7 +241,7 @@ strong {
     margin: 10px;
     border-radius: 15px;
     font-weight: 700;
-    max-width: 60vw;
+    width: 200px;
 }
 
 #Contact ul li a {
@@ -443,6 +443,7 @@ footer {
 
     #Contact ul li {
         padding: 10px 0;
+        max-width: 60vw;
     }
 
     #Contact ul li a {
