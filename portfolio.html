@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my portfolio</title>
+    <title>My Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Oseni Matthew, a frontend developer specializing in React, JavaScript, and modern web development."
+    />
     <link rel="stylesheet" href="styles/portfolio.css" />
     <link rel="icon" href="images/logo.jpg" />
     <link
@@ -16,39 +20,223 @@
       <div class="logo">
         <h1>PORTFOLIO</h1>
       </div>
-      <nav class="menu">
+      <div class="navbar_toggle" id="mobile_menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <nav class="nav_links">
         <a href="#Home">Home</a>
+        <a href="#Projects">Projects</a>
+        <a href="#About">About Me</a>
+        <a href="#Contact">Contact</a>
         <a
           href="https://docs.google.com/document/d/18BrSvP7r-JiFl3WrkB_7PWcu5ntDefxTMCLOJWCatf0/edit?usp=sharing"
+          target="_blank"
           >Resume</a
         >
-        <a href="#">Contact</a>
       </nav>
     </header>
+
+    <!-- Home Section -->
     <section id="Home">
       <div class="content">
         <div class="image">
-          <img src="images/Oseni.jpg" alt="an image of Oseni" />
+          <img
+            src="images/Oseni.jpg"
+            alt="Photo of Oseni Matthew, a Frontend Developer"
+          />
         </div>
         <div class="text">
           <h2>Hello, It's Me</h2>
           <h1>Oseni Matthew</h1>
-          <h2>And i'm a <strong>Frontend Developer</strong></h2>
+          <h2>And I'm a <strong>Frontend Developer</strong>.</h2>
           <p>
-            Merging creativity and codes to deliver exceptional web
-            applications.
+            Merging creativity and code to deliver exceptional web applications.
           </p>
           <div class="social-links">
-            <a href=""><i class="fab fa-facebook-f"></i></a>
-            <a href=""><i class="fab fa-twitter"></i></a>
-            <a href=""><i class="fab fa-linkedin-in"></i></a>
-            <div class="button">
-              <a href="#" class="download-button" download="#">Download CV</a>
-            </div>
+            <a href="https://www.facebook.com/oseni.matthew.3" target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://x.com/osenimatthew9?s=09" target="_blank"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
+                alt="X (Twitter)"
+                width="30"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/oseni-matthew-025b4a283/"
+              target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+          <div class="button">
+            <a href="path-to-cv.pdf" class="download-button" download
+              >Download CV</a
+            >
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Projects Section -->
+    <section id="Projects">
+      <h2>My Projects</h2>
+      <div class="project-container">
+        <div class="project-card">
+          <h3>ALX Projects</h3>
+          <p>
+            Weekly tasks assigned to learners throughout the program, completed
+            using advanced HTML and CSS.
+          </p>
+          <a
+            href="https://github.com/yourusername/music-streaming-site"
+            target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+        <div class="project-card">
+          <h3>Techtunes Music Streaming Site</h3>
+          <p>
+            Developed using HTML, CSS, JavaScript, and integrated with the
+            Jamendo API, this site offers music search, display, and playlist
+            functionality.
+          </p>
+          <a href="https://github.com/Osenimatthew/Techtunes" target="_blank"
+            >View on GitHub</a
+          >
+          <a href="https://osenimatthew.github.io/Techtunes/" target="_blank"
+            >View project</a
+          >
+        </div>
+        <div class="project-card">
+          <h3>Techtunes Music Streaming Site</h3>
+          <p>
+            Developed using REACT, HTML, CSS, JavaScript, and integrated with
+            the Jamendo API, this site offers music search, display, and
+            playlist functionality.
+          </p>
+          <a
+            href="https://github.com/Osenimatthew/Techtide-Entertainment/tree/master/techtunes"
+            target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+        <div class="project-card">
+          <h3>B-way E-commerce Website</h3>
+          <p>
+            Created with HTML, CSS, and JavaScript, this site showcases a list
+            of products, enables customers to place orders, and provides farm
+            location details to build trust and authenticity.
+          </p>
+          <a
+            href="https://github.com/yourusername/music-streaming-site"
+            target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+        <div class="project-card">
+          <h3>B-way E-commerce Website</h3>
+          <p>
+            Created with REACT, HTML, CSS, and JavaScript, this site showcases a
+            list of products, enables customers to place orders, and provides
+            farm location details to build trust and authenticity.
+          </p>
+          <a
+            href="https://github.com/yourusername/music-streaming-site"
+            target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="About">
+      <h2>About Me</h2>
+      <p>
+        I’m Oseni Matthew, a dedicated frontend developer with a strong passion
+        for creating visually compelling and user-friendly web applications.
+        Having recently graduated from the ALX program, I’ve honed my skills in
+        React, HTML, CSS, JavaScript, wixsite, And Miro, with a focus on modern,
+        efficient coding practices like ES6+. Through intensive, real-world
+        projects, I’ve developed a problem-solving mindset and a solid
+        understanding of responsive design, accessibility, and user experience.
+      </p>
+      <p>
+        I am a fast learner with a commitment to continuous improvement, always
+        eager to explore new tools and frameworks that enhance both my workflow
+        and the quality of my work. My approach to development combines
+        creativity with precision, allowing me to build solutions that are not
+        only functional but also engaging for users.
+      </p>
+      <p>
+        Beyond coding, I value collaboration and clear communication, making me
+        an adaptable team player in fast-paced environments. I’m excited to
+        apply my skills and contribute meaningfully to innovative projects,
+        while continuously growing as a developer.
+      </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="Contact">
+      <div>
+        <h2>Contact Me</h2>
+        <p>
+          Interested in working together or have questions? Feel free to reach
+          out!
+        </p>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/732/732200.png"
+              alt="Email"
+              width="24"
+            />
+            <a href="mailto:osenimatthew9@gmai.com">E-mail</a>
+          </li>
+          <li>
+            <i
+              class="fab fa-linkedin"
+              style="color: #0077b5; font-size: 24px"
+            ></i>
+            <a
+              href="https://www.linkedin.com/in/oseni-matthew-025b4a283/"
+              target="_blank"
+            >
+              linkedin
+            </a>
+          </li>
+          <li>
+            <i class="fab fa-github" style="color: #333; font-size: 24px"></i>
+            <a href="https://github.com/Osenimatthew/" target="_blank">
+              Github</a
+            >
+          </li>
+          <li>
+            <i
+              class="fab fa-whatsapp"
+              style="color: #25d366; font-size: 24px"
+            ></i>
+            <a
+              href="https://wa.me/08097925163?text=Hello%20there!%20I%20found%20your%20portfolio.
+            "
+              target="_blank"
+            >
+              Whatsapp</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2024 Oseni Matthew | Built with passion.</p>
+    </footer>
+
+    <script src="Functions/portfolio.js"></script>
   </body>
 </html>
-
