@@ -166,7 +166,11 @@ strong {
 .project-card {
     flex: 1 1 45%;
     min-width: 250px;
-    margin: 10px;
+    background: #E3E6F3;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #00a1c2;
+    max-width: 500px;
 }
   
 .project-card h3 {
