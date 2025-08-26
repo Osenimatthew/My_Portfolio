@@ -21,7 +21,7 @@ header {
     position: sticky;
     z-index: 999;
     top: 0;
-    width: 100%;
+    max-width: 100vw
 }
 
 .logo {
@@ -56,11 +56,11 @@ nav a:active {
     align-items: center;
     min-height: 90vh;
     position: relative;
-    width: 100%;
+    max-width: 100vw
 }
 
 .content {
-    width: 100%;
+    max-width: 100vw
     display: flex;
     align-items: center;
     text-align: center;
@@ -148,7 +148,7 @@ strong {
 #Projects {
     padding: 20px 0;
     background-color: #1a2746;
-    width: 100%;
+    max-width: 100vw
 }
 
 #Projects h2 {
@@ -196,7 +196,7 @@ strong {
     text-align: center;
     background-color: #344a72;
     min-height: 80vh;
-    width: 100%;
+    max-width: 100vw
 }
 
 #About h2 {
@@ -217,7 +217,7 @@ strong {
     text-align: center;
     min-height: 50vh;
     background-color: #222344;
-    width: 100%;
+    max-width: 100vw
 }
 
 #Contact h2 {
@@ -269,7 +269,7 @@ footer {
     position: relative;
     text-align: center;
     padding: 10px 0;
-    width: 100%;
+    max-width: 100vw
 }
 
 @media screen and (max-width: 960px) {
