@@ -5,3 +5,5 @@ menu.addEventListener("click", function () {
   menu.classList.toggle("is-active");
   menulinks.classList.toggle("active");
 });
+
+document.getElementById("year").textContent = new Date().getFullYear();
