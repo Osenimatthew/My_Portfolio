@@ -9,6 +9,7 @@ body {
     background-color: #1a1a2e;
     margin: 0;
     font-family: Arial, sans-serif;
+    max-width: 100vw
 }
 
 header {
